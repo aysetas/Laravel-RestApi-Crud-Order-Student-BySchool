@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 
+use App\Models\School;
 use App\Models\Student;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -15,9 +16,16 @@ class StudentSeeder extends Seeder
      */
     public function run(): void
     {
-        Student::factory()
-            ->count(10)
-            ->create();
+        $school = School::inRandomOrder()->first();
+
+        for ($i = 0; $i < 10; $i++) {
+            Student::create([
+                'name' => Str::random(10),
+                'school_id' => $school->id,
+                'order' => mt_rand(1, 9),
+            ]);
+        }
+
     }
 
 }

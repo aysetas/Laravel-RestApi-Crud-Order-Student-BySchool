@@ -14,8 +14,10 @@ class SchoolSeeder extends Seeder
      */
     public function run(): void
     {
-        School::factory()
-            ->count(10)
-            ->create();
+        for ($i = 0; $i < 10; $i++) {
+            School::create([
+                'name' => Str::random(5),
+            ]);
+        }
     }
 }
