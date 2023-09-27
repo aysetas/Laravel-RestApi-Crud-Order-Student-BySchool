@@ -65,4 +65,12 @@ class StudentTest extends TestCase
         $delete = $studentService->destroyStudent($this->student);
         $this->assertTrue($delete);
     }
+
+    /** @test */
+    public function it_can_command_reorder_students_by_school()
+    {
+        $this->artisan('reorder:students')
+            ->expectsOutput('Öğrencilerin okul sıraları yeniden düzenlendi.')
+            ->assertExitCode(0);
+    }
 }
