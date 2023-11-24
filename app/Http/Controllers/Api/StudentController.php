@@ -12,7 +12,24 @@ use App\Services\StudentService;
 use App\Traits\ApiResponse;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use OpenApi\Annotations as OA;
 
+/**
+ * @OA\Info(title="Student", version="3.0.1")
+ * @OA\SecurityScheme(
+ *      securityScheme="X-Api-Key",
+ *      in="header",
+ *      name="X-Api-Key",
+ *      type="apiKey",
+ *  ),
+ * @OA\OpenApi(
+ *      security={
+ *          {"apiKeyAuth": {}}
+ *      }
+ *  )
+ *
+ *
+ */
 class StudentController extends Controller
 {
     use ApiResponse;
@@ -24,7 +41,19 @@ class StudentController extends Controller
     }
 
     /**
-     * @return JsonResponse
+     * @OA\Get(
+     *     path="/api/students",
+     *     tags={"Students"},
+     *     summary="List Students",
+     *     security={
+     *           {"X-Api-Key": {}}
+     *       },
+     *     @OA\Response(
+     *         response="200",
+     *         description="Öğrencileri listeler.",
+     *         @OA\JsonContent()
+     *     ),
+     * )
      */
     public function index(): JsonResponse
     {
@@ -35,8 +64,33 @@ class StudentController extends Controller
             data: StudentResource::collection($data)
         );
     }
-
     /**
+     * @OA\Post(
+     *      path="/api/students",
+     *      operationId="store",
+     *      tags={"Students"},
+     *      summary="Save Student",
+     *      description="Öğrencileri veritabanına kaydeder",
+     *      security={
+     *           {"X-Api-Key": {}}
+     *       },
+     *      @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *            required={"name", "school_id"},
+     *            @OA\Property(property="name", type="string", format="string", example="Ayşe TAŞ"),
+     *            @OA\Property(property="school_id", type="integer", format="integer", example="3"),
+     *         ),
+     *      ),
+     *     @OA\Response(
+     *          response=200, description="Success",
+     *          @OA\JsonContent(
+     *             @OA\Property(property="status", type="integer", example=""),
+     *             @OA\Property(property="data",type="object")
+     *          )
+     *       )
+     *  )
+     *
      * @param StoreStudentRequest $request
      * @return JsonResponse
      */
@@ -51,6 +105,28 @@ class StudentController extends Controller
     }
 
     /**
+     * @OA\Get(
+     *    path="/api/students/{id}",
+     *    operationId="show",
+     *    tags={"Students"},
+     *    summary="Show Student",
+     *    description="Öğrencinin bilgilerini görüntüler",
+     *   security={
+     *          {"X-Api-Key": {}}
+     *      },
+     *    @OA\Parameter(name="id", in="path", description="Id of Student", required=true,
+     *        @OA\Schema(type="integer")
+     *    ),
+     *     @OA\Response(
+     *          response=200,
+     *          description="Success",
+     *          @OA\JsonContent(
+     *          @OA\Property(property="status_code", type="integer", example="200"),
+     *          @OA\Property(property="data",type="object")
+     *           ),
+     *        )
+     *       )
+     *  )
      * @param string $id
      * @return JsonResponse
      */
@@ -62,6 +138,34 @@ class StudentController extends Controller
     }
 
     /**
+     * @OA\Put(
+     *     path="/api/students/{id}",
+     *     operationId="update",
+     *     tags={"Students"},
+     *     summary="Update Student",
+     *     description="Öğrencinin bilgilerini günceller.",
+     *     security={
+     *           {"X-Api-Key": {}}
+     *     },
+     *     @OA\Parameter(name="id", in="path", description="Id of Student", required=true,
+     *         @OA\Schema(type="integer")
+     *     ),
+     *     @OA\RequestBody(
+     *        required=true,
+     *        @OA\JsonContent(
+     *            required={"name", "school_id"},
+     *             @OA\Property(property="name", type="string", format="string", example="Test Student Name"),
+     *             @OA\Property(property="school_id", type="integer", format="integer", example="2"),
+     *        ),
+     *     ),
+     *     @OA\Response(
+     *          response=200, description="Success",
+     *          @OA\JsonContent(
+     *             @OA\Property(property="status_code", type="integer", example="200"),
+     *             @OA\Property(property="data",type="object")
+     *          )
+     *       )
+     *  )
      * @param UpdateStudentRequest $request
      * @param Student $student
      * @return JsonResponse
@@ -76,6 +180,28 @@ class StudentController extends Controller
     }
 
     /**
+     * @OA\Delete(
+     *    path="/api/students/{id}",
+     *    operationId="destroy",
+     *    tags={"Students"},
+     *    summary="Delete Student",
+     *    description="Öğrenci bilgisini siler",
+     *    security={
+     *           {"X-Api-Key": {}}
+     *     },
+     *    @OA\Parameter(name="id", in="path", description="Id of Student", required=true,
+     *        @OA\Schema(type="integer")
+     *    ),
+     *    @OA\Response(
+     *         response=200,
+     *         description="Success",
+     *         @OA\JsonContent(
+     *         @OA\Property(property="status_code", type="integer", example="200"),
+     *         @OA\Property(property="data",type="object")
+     *          ),
+     *       )
+     *      )
+     *  )
      * @param Student $student
      * @return JsonResponse
      */
