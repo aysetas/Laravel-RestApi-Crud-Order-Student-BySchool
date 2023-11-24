@@ -78,15 +78,32 @@ class StudentController extends Controller
      *         required=true,
      *         @OA\JsonContent(
      *            required={"name", "school_id"},
-     *            @OA\Property(property="name", type="string", format="string", example="Ayşe TAŞ"),
-     *            @OA\Property(property="school_id", type="integer", format="integer", example="3"),
+     *            @OA\Property(
+     *              property="name",
+     *              type="string",
+     *              format="string",
+     *              example="Ayşe TAŞ"
+     *              ),
+     *            @OA\Property(
+     *              property="school_id",
+     *              type="integer",
+     *              format="integer",
+     *              example="3"
+     *              ),
      *         ),
      *      ),
      *     @OA\Response(
      *          response=200, description="Success",
      *          @OA\JsonContent(
-     *             @OA\Property(property="status", type="integer", example=""),
-     *             @OA\Property(property="data",type="object")
+     *             @OA\Property(
+     *                property="status",
+     *                type="integer",
+     *                 example=""
+     *                 ),
+     *             @OA\Property(
+     *                property="data",
+     *               type="object"
+     *               )
      *          )
      *       )
      *  )
@@ -114,15 +131,26 @@ class StudentController extends Controller
      *   security={
      *          {"X-Api-Key": {}}
      *      },
-     *    @OA\Parameter(name="id", in="path", description="Id of Student", required=true,
+     *    @OA\Parameter(
+     *            name="id",
+     *            in="path",
+     *            description="Id of Student",
+     *            required=true,
      *        @OA\Schema(type="integer")
      *    ),
      *     @OA\Response(
      *          response=200,
      *          description="Success",
      *          @OA\JsonContent(
-     *          @OA\Property(property="status_code", type="integer", example="200"),
-     *          @OA\Property(property="data",type="object")
+     *          @OA\Property(
+     *                property="status_code",
+     *                type="integer",
+     *                 example="200"
+     *              ),
+     *          @OA\Property(
+     *               property="data",
+     *               type="object"
+     *              )
      *           ),
      *        )
      *       )
@@ -147,21 +175,39 @@ class StudentController extends Controller
      *     security={
      *           {"X-Api-Key": {}}
      *     },
-     *     @OA\Parameter(name="id", in="path", description="Id of Student", required=true,
+     *     @OA\Parameter(
+     *              name="id",
+     *              in="path",
+     *              description="Id of Student",
+     *              required=true,
      *         @OA\Schema(type="integer")
      *     ),
      *     @OA\RequestBody(
      *        required=true,
      *        @OA\JsonContent(
      *            required={"name", "school_id"},
-     *             @OA\Property(property="name", type="string", format="string", example="Test Student Name"),
-     *             @OA\Property(property="school_id", type="integer", format="integer", example="2"),
+     *             @OA\Property(
+     *                  property="name",
+     *                  type="string",
+     *                  format="string",
+     *                  example="Test Student Name"
+     *                ),
+     *             @OA\Property(
+     *                  property="school_id",
+     *                  type="integer",
+     *                  format="integer",
+     *                   example="2"
+     *              ),
      *        ),
      *     ),
      *     @OA\Response(
      *          response=200, description="Success",
      *          @OA\JsonContent(
-     *             @OA\Property(property="status_code", type="integer", example="200"),
+     *             @OA\Property(
+     *                  property="status_code",
+     *                  type="integer",
+     *                  example="200"
+     *                  ),
      *             @OA\Property(property="data",type="object")
      *          )
      *       )
@@ -189,15 +235,26 @@ class StudentController extends Controller
      *    security={
      *           {"X-Api-Key": {}}
      *     },
-     *    @OA\Parameter(name="id", in="path", description="Id of Student", required=true,
+     *    @OA\Parameter(
+     *          name="id",
+     *          in="path",
+     *          description="Id of Student",
+     *          required=true,
      *        @OA\Schema(type="integer")
      *    ),
      *    @OA\Response(
      *         response=200,
      *         description="Success",
      *         @OA\JsonContent(
-     *         @OA\Property(property="status_code", type="integer", example="200"),
-     *         @OA\Property(property="data",type="object")
+     *         @OA\Property(
+     *            property="status_code",
+     *            type="integer",
+     *            example="200"
+     *            ),
+     *         @OA\Property(
+     *             property="data",
+     *             type="object"
+     *           )
      *          ),
      *       )
      *      )
