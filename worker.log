@@ -1,0 +1,4098 @@
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+   Error 
+
+  Class "Aws\Sqs\SqsClient" not found
+
+  at /vagrant/school-student/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+     22▕             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+     23▕         }
+     24▕ 
+     25▕         return new SqsQueue(
+  ➜  26▕             new SqsClient(
+     27▕                 Arr::except($config, ['token'])
+     28▕             ),
+     29▕             $config['queue'],
+     30▕             $config['prefix'] ?? '',
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+      [2m+17 vendor frames [22m
+
+  18  /vagrant/school-student/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2023-11-21 14:44:45 App\Notifications\ResetPasswordNotification .... RUNNING
+  2023-11-21 14:44:48 App\Notifications\ResetPasswordNotification .... 3s DONE
+  2023-11-22 06:43:06 App\Notifications\ResetPasswordNotification .... RUNNING
+  2023-11-22 06:43:10 App\Notifications\ResetPasswordNotification .... 3s DONE
+  2023-11-22 07:10:33 App\Notifications\ResetPasswordNotification .... RUNNING
+  2023-11-22 07:10:38 App\Notifications\ResetPasswordNotification .... 4s DONE
+  2023-11-22 07:26:06 App\Notifications\ResetPasswordNotification .... RUNNING
+  2023-11-22 07:31:17 App\Notifications\ResetPasswordNotification .... RUNNING
+  2023-11-22 07:31:21 App\Notifications\ResetPasswordNotification .... 3s DONE
