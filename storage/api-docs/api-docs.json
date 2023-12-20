@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Student",
+        "title": "School-Student",
         "version": "3.0.1"
     },
     "paths": {

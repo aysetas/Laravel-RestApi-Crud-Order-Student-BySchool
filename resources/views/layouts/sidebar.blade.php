@@ -31,6 +31,38 @@
                          <span class="menu-text font-size-h6-sm">Öğrenciler</span>
                     </a>
                 </li>
+                <li class="menu-item " aria-haspopup="true">
+                    <a href="/horizon" class="menu-link item-menu" target="_blank">
+                         <span class="menu-icon me-0">
+                             <i class="fas fa-circle icon-2x"></i>
+                         </span>
+                        <span class="menu-text font-size-h6-sm">Horizon</span>
+                    </a>
+                </li>
+                <li class="menu-item " aria-haspopup="true">
+                    <a href="/api/documentation" class="menu-link item-menu" target="_blank">
+                         <span class="menu-icon me-0">
+                             <i class="fas fa-file-alt icon-2x"></i>
+                         </span>
+                        <span class="menu-text font-size-h6-sm">Swagger</span>
+                    </a>
+                </li>
+                <li class="menu-item " aria-haspopup="true">
+                    <a href="/log-viewer-LksdW" class="menu-link item-menu" target="_blank" >
+                          <span class="menu-icon me-0">
+                              <i class="fas fa-wrench icon-2x"></i>
+                         </span>
+                        <span class="menu-text font-size-h6-sm">Logs</span>
+                    </a>
+                </li>
+                <li class="menu-item " aria-haspopup="true">
+                    <a href="/telescope" class="menu-link item-menu" target="_blank" >
+                          <span class="menu-icon me-0">
+                              <i class="fas fa-rocket icon-2x"></i>
+                         </span>
+                        <span class="menu-text font-size-h6-sm">Telescope</span>
+                    </a>
+                </li>
 
             </ul>
             <!--end::Menu Nav-->

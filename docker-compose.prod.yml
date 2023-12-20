@@ -1,0 +1,54 @@
+version: '3'
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  data.app:
+    driver: local
+
+services:
+  php-fpm:
+    container_name: php-fpm
+    restart: unless-stopped
+    build:
+      context: ./docker/prod
+      dockerfile: php-fpm.Dockerfile
+    environment:
+      - APP_ENV=${APP_ENV:-production}
+      - LARAVEL_PROCS_NUMBER=${LARAVEL_PROCS_NUMBER:-1}
+    ports:
+      - 9000
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - .:/var/www/html
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx:stable
+    container_name: nginx
+    build:
+      context: ./docker/prod
+      dockerfile: nginx.Dockerfile
+    restart: always
+    links:
+      - php-fpm
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./:/var/www/html/
+    networks:
+      - app-network
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: mailpit
+    ports:
+      - 1025:1025
+      - 8025:8025
+    networks:
+      - app-network

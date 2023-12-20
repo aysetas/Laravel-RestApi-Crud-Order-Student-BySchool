@@ -14,31 +14,13 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use OpenApi\Annotations as OA;
 
-/**
- * @OA\Info(title="Student", version="3.0.1")
- * @OA\SecurityScheme(
- *      securityScheme="X-Api-Key",
- *      in="header",
- *      name="X-Api-Key",
- *      type="apiKey",
- *  ),
- * @OA\OpenApi(
- *      security={
- *          {"apiKeyAuth": {}}
- *      }
- *  )
- *
- *
- */
+
 class StudentController extends Controller
 {
     use ApiResponse;
-    protected $studentService;
 
-    public function __construct(StudentService $studentService)
-    {
-        $this->studentService = $studentService;
-    }
+
+    public function __construct(public StudentService $studentService) {}
 
     /**
      * @OA\Get(
@@ -57,12 +39,19 @@ class StudentController extends Controller
      */
     public function index(): JsonResponse
     {
-        $data = $this->studentService
-            ->listStudent();
+        try {
+            $data = $this->studentService
+                ->listStudent();
 
-        return $this->successResponse(
-            data: StudentResource::collection($data)
-        );
+            return $this->successResponse(
+                data: StudentResource::collection($data)
+            );
+        } catch (\Exception $e) {
+            return $this->errorResponse(
+                message: 'Kayıt listelenirken bir hata oluştu.',
+                statusCode: 500
+            );
+        }
     }
     /**
      * @OA\Post(
@@ -113,12 +102,19 @@ class StudentController extends Controller
      */
     public function store(StoreStudentRequest $request): JsonResponse
     {
-        $data = $this->studentService->createStudent($request->validated());
+        try {
+            $data = $this->studentService->createStudent($request->validated());
 
-        return $this->successResponse(
-            message:'Yeni kayıt başarılı bir şekilde eklendi.',
-            data: new StudentResource($data)
-        );
+            return $this->successResponse(
+                message: 'Yeni kayıt başarılı bir şekilde eklendi.',
+                data: new StudentResource($data)
+            );
+        } catch (\Exception $e) {
+            return $this->errorResponse(
+                message: 'Kayıt eklenirken bir hata oluştu.',
+                statusCode: 500
+            );
+        }
     }
 
     /**
@@ -160,9 +156,17 @@ class StudentController extends Controller
      */
     public function show(Student $student): JsonResponse
     {
-        return $this->successResponse(
-            data: new StudentResource($student)
-        );
+        try {
+            return $this->successResponse(
+                data: new StudentResource($student)
+            );
+        }catch (\Exception $e){
+            return $this->errorResponse(
+                message: 'Kayıt görüntülemede bir hata oluştu.',
+                statusCode: 500
+            );
+        }
+
     }
 
     /**
@@ -218,11 +222,19 @@ class StudentController extends Controller
      */
     public function update(UpdateStudentRequest $request, Student $student): JsonResponse
     {
-        $data = $this->studentService->updateStudent($request->validated(), $student);
-        return $this->successResponse(
-            message:'Kayıt başarılı bir şekilde güncellendi.',
-            data: new StudentResource($data),
-        );
+        try {
+            $data = $this->studentService->updateStudent($request->validated(), $student);
+            return $this->successResponse(
+                message:'Kayıt başarılı bir şekilde güncellendi.',
+                data: new StudentResource($data),
+            );
+        }catch (\Exception $e){
+            return $this->errorResponse(
+                message: 'Kayıt güncelenirken bir hata oluştu.',
+                statusCode: 500
+            );
+        }
+
     }
 
     /**
@@ -264,10 +276,18 @@ class StudentController extends Controller
      */
     public function destroy(Student $student): JsonResponse
     {
-        $this->studentService->destroyStudent($student);
+        try {
+            $this->studentService->destroyStudent($student);
 
-        return $this->successResponse(
-            statusCode: 204
-        );
+            return $this->successResponse(
+                statusCode: 204
+            );
+        } catch (\Exception $e) {
+            return $this->errorResponse(
+                message: 'Kayıt silinirken bir hata oluştu.'.$e->getMessage(),
+                statusCode: 500
+            );
+        }
     }
 }
+

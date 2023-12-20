@@ -1,0 +1,16 @@
+{
+    "name": "vagrant/packege",
+    "description": "test",
+    "license": "2023",
+    "autoload": {
+        "psr-4": {
+            "Vagrant\\Packege\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ayşe"
+        }
+    ],
+    "require": {}
+}

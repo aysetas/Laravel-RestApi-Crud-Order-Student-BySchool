@@ -4096,3 +4096,6 @@
   2023-11-22 07:26:06 App\Notifications\ResetPasswordNotification .... RUNNING
   2023-11-22 07:31:17 App\Notifications\ResetPasswordNotification .... RUNNING
   2023-11-22 07:31:21 App\Notifications\ResetPasswordNotification .... 3s DONE
+  2023-11-27 13:38:51 App\Notifications\ResetPasswordNotification .... RUNNING
+  2023-11-27 13:40:34 App\Listeners\SendReorderingEmailListener ...... RUNNING
+  2023-11-27 13:40:38 App\Listeners\SendReorderingEmailListener ...... 3s DONE
